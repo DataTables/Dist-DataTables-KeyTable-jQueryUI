@@ -1,0 +1,39 @@
+{
+    "name": "datatables.net-keytable-jqui",
+    "description": "KeyTable for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+    "main": [
+        "css/keyTable.jqueryui.css"
+    ],
+    "keywords": [
+        "spreadsheet",
+        "excel",
+        "keyboard",
+        "DataTables",
+        "jQuery",
+        "table",
+        "jQuery UI"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-jqui": ">=1.10.9",
+        "datatables.net-keytable": ">=2.0.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}
