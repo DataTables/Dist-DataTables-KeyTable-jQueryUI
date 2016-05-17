@@ -5,6 +5,7 @@
     "files": [
         "css/keyTable.jqueryui.css"
     ],
+    "style": "css/keyTable.jqueryui.css",
     "keywords": [
         "spreadsheet",
         "excel",
