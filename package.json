@@ -3,7 +3,7 @@
     "version": "2.3.1",
     "description": "KeyTable for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/keyTable.jqueryui.css"
+        "css/**/*.css"
     ],
     "style": "css/keyTable.jqueryui.css",
     "keywords": [
