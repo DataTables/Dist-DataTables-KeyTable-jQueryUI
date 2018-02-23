@@ -3,7 +3,8 @@
     "version": "2.3.2",
     "description": "KeyTable for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/keyTable.jqueryui.css",
     "keywords": [
@@ -30,5 +31,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-KeyTable-jQueryUI.git"
-    }
+    },
+    "main": "js/keyTable.jqueryui.js"
 }
