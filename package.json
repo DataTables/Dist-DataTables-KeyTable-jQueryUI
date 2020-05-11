@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-keytable-jqui",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "KeyTable for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
@@ -26,7 +26,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-jqui": "^1.10.15",
-        "datatables.net-keytable": "2.5.1"
+        "datatables.net-keytable": "2.5.2"
     },
     "repository": {
         "type": "git",
