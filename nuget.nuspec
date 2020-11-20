@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>datatables.net-keytable-ju</id>
+        <version>2.5.2</version>
+        <description>KeyTable for DataTables</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>keytable DataTables jQuery table jqueryUI</tags>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-jqueryUI.git"/>
+        <dependencies>
+            <dependency id="jquery" version="1.7.0"/>
+            <dependency id="datatables.net" version="1.10.15"/>
+            <dependency id="datatables.net-keytable" version="2.5.2"/>
+            <dependency id="jqueryui" version="1.*"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js/keytable.jqueryui.js"/>
+        <file src="js/keytable.jqueryui.min.js"/>
+        <file src="css/keytable.jqueryui.css"/>
+        <file src="css/keytable.jqueryui.min.css"/>
+    </files>
+</package>
