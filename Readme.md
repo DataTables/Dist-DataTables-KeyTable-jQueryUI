@@ -1,6 +1,6 @@
-# KeyTable for DataTables with styling for [jQuery UI](http://jqueryui.com/)
+# KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains distribution files required to style [KeyTable extension](https://datatables.net/extensions/keytable) for [DataTables](https://datatables.net/) with styling for [jQuery UI](http://jqueryui.com/).
+This package contains a built distribution of the [KeyTable extension](https://datatables.net/extensions/KeyTable) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 KeyTable allows you to use keyboard navigation on a DataTables enhanced table, like an Excel spreadsheet - a cell shows a focus outline which can be moved using the keyboard or mouse operations. This can be particularly useful in an editable table that uses Editor allowing end users to update data very quickly.
 
@@ -19,7 +19,7 @@ npm install datatables.net-keytable-jqui
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-keytable-jqui' )( window, $ );
+var dt = require( 'datatables.net-keytable-jqui}' )( window, $ );
 ```
 
 ### bower
@@ -32,7 +32,7 @@ bower install --save datatables.net-keytable-jqui
 
 ## Documentation
 
-Full documentation of the DataTables options, API and plug-in interface are available on the DOCS_LINK. The site also contains information on the wide variety of plug-ins that are available for DataTables, which can be used to enhance and customise your table even further.
+Full documentation and examples for KeyTable can be found [on the website](https://datatables.net/extensions/keytable).
 
 
 ## Bug / Support
@@ -48,3 +48,4 @@ If you are thinking of contributing code to DataTables, first of all, thank you!
 ## License
 
 This software is released under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, but all copyright information must remain.
+

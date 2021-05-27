@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-keytable-ju</id>
-    <version>2.6.1</version>
-    <description>KeyTable for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>keytable DataTables jQuery table jqueryUI</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-jqueryUI.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-keytable" version="2.5.2"/>
-      <dependency id="jqueryui" version="1.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/keytable.jqueryui.js" target="content\Scripts"/>
-    <file src="js/keytable.jqueryui.min.js" target="content\Scripts"/>
-    <file src="css/keytable.jqueryui.css" target="content\Content"/>
-    <file src="css/keytable.jqueryui.min.css" target="content\Content"/>
-    <file src="js/keytable.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/keytable.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/keytable.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/keytable.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>2.6.1</version>
+        <id>datatables.net-keytable-jqui</id>
+        <description>This is KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-jQueryUI.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>KeyTable  Excel  keyboard  Spreadsheet  jQuery UI  jQueryUI  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-keytable" version=">=2.6.1"/>
+            <dependency id="datatables.net-jqui" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/keyTable.jqueryui.js" target="content\Scripts"/>
+        <file src="js/keyTable.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/keyTable.jqueryui.min.js" target="content\Scripts"/>
+        <file src="js/keyTable.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/keyTable.jqueryui.css" target="content\Content"/>
+        <file src="css/keyTable.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/keyTable.jqueryui.min.css" target="content\Content"/>
+        <file src="css/keyTable.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/keyTable.jQueryUI.d.ts" target="content\Scripts"/>
+        <file src="types/keyTable.jQueryUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

@@ -1,36 +1,50 @@
 {
     "name": "datatables.net-keytable-jqui",
+    "description": "KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/keyTable.jqueryui.js",
+    "style": "css/keyTable.jqueryui.css",
     "version": "2.6.1",
-    "description": "KeyTable for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/keyTable.jqueryui.css",
     "keywords": [
-        "spreadsheet",
-        "excel",
-        "keyboard",
-        "DataTables",
+        "KeyTable",
+ "Excel",
+ "keyboard",
+ "Spreadsheet",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-keytable": ">=2.6.1",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-keytable": "2.6.1"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-KeyTable-jQueryUI.git"
-    },
-    "main": "js/keyTable.jqueryui.js"
+    }
 }

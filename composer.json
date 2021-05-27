@@ -1,27 +1,36 @@
-
 {
-	"name": "datatables.net/datatables.net-keytable-ju",
-	"version": "2.5.2",
-	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the KeyTable extension for DataTables.", 
-	"homepage": "http://www.datatables.net/",
-	"authors": [{
-		"name": "SpryMedia",
-		"homepage": "https://datatables.net"
-	}], 
-	"license": [
-		"MIT"
-	],
+    "version": "2.6.1",
+    "name": "datatables.net/datatables.net-keytable-jqui",
+    "description": "KeyTable allows you to use keyboard navigation on a DataTables enhanced table, like an Excel spreadsheet - a cell shows a focus outline which can be moved using the keyboard or mouse operations. This can be particularly useful in an editable table that uses Editor allowing end users to update data very quickly. This is KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-KeyTable-jQueryUI"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
-	"support": {
-		"forum": "https://datatables.net/forums",
-		"source": "https://github.com/DataTables/Dist-DataTables-KeyTable-jqueryUI/"
-    },
-    "keywords": ["DataTables", "jQuery", "table", "keytable", "jqueryUI"],
+    "keywords": [
+        "KeyTable",
+ "Excel",
+ "keyboard",
+ "Spreadsheet",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
     "require": {
-        "components/jquery":">=3.5.1",
-        "datatables.net/datatables.net":">=1.10.15",
-        "datatables.net/datatables.net-keytable":">=2.5.2",
-        "components/jqueryui": "1.*"
+        "datatables.net/datatables.net-keytable": ">=2.6.1",
+        "datatables.net/datatables.net-jqui": ">=1.10.24"
     }
 }
