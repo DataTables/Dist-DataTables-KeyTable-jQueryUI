@@ -1,6 +1,6 @@
 # KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains a built distribution of the [KeyTable extension](https://datatables.net/extensions/KeyTable) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
+This package contains a built distribution of the [KeyTable extension](https://datatables.net/extensions/keytable) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 KeyTable allows you to use keyboard navigation on a DataTables enhanced table, like an Excel spreadsheet - a cell shows a focus outline which can be moved using the keyboard or mouse operations. This can be particularly useful in an editable table that uses Editor allowing end users to update data very quickly.
 
