@@ -4,18 +4,18 @@
     "main": "js/keyTable.jqueryui.js",
     "style": "css/keyTable.jqueryui.css",
     "types": "./types/keyTable.jQueryUI.d.ts",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -23,9 +23,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": ">=2.6.1",
-        "datatables.net-jqui": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-jqui": "^1.10.15",
+        "datatables.net-keytable": "2.6.2"
     },
     "moduleType": [
         "globals",
