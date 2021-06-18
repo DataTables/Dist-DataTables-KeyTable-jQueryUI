@@ -24,7 +24,7 @@
     ],
     "dependencies": {
         "datatables.net-keytable": ">=2.6.2",
-        "datatables.net-jqui": ">=1.10.26-dev",
+        "datatables.net-jqui": ">=1.10.25",
         "jquery": ">=1.7"
     },
     "moduleType": [
