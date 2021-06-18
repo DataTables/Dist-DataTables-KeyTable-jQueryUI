@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>KeyTable  Excel  keyboard  Spreadsheet  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-keytable" version=">=2.6.2"/>
-            <dependency id="datatables.net-jqui" version=">=1.10.25"/>
+            <dependency id="datatables.net-keytable" version="2.6.2"/>
+            <dependency id="datatables.net-jqui" version="1.10.25"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
