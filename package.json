@@ -4,18 +4,18 @@
     "main": "js/keyTable.jqueryui.js",
     "style": "css/keyTable.jqueryui.css",
     "types": "./types/keyTable.jQueryUI.d.ts",
-    "version": "2.6.2",
+    "version": "2.6.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
