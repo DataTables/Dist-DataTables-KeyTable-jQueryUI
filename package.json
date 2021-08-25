@@ -4,7 +4,7 @@
     "main": "js/keyTable.jqueryui.js",
     "style": "css/keyTable.jqueryui.css",
     "types": "./types/keyTable.jQueryUI.d.ts",
-    "version": "2.6.3",
+    "version": "2.6.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
