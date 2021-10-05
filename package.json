@@ -7,15 +7,16 @@
     "version": "2.6.4",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "KeyTable",
-        "Excel",
-        "keyboard",
-        "Spreadsheet",
+ "Excel",
+ "keyboard",
+ "Spreadsheet",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -23,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": ">=2.6.2",
-        "datatables.net-jqui": ">=1.10.25",
+        "datatables.net-keytable": ">=2.6.4",
+        "datatables.net-jqui": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
