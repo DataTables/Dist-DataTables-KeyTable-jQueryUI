@@ -31,6 +31,6 @@
     ],
     "require": {
         "datatables.net/datatables.net-keytable": ">=2.6.4",
-        "datatables.net/datatables.net-jqui": ">=1.11.3"
+        "datatables.net/datatables.net-jqui": ">=1.11.5"
     }
 }
