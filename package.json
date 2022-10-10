@@ -2,12 +2,14 @@
     "name": "datatables.net-keytable-jqui",
     "description": "KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/keyTable.jqueryui.js",
+    "module": "js/keyTable.jqueryui.mjs",
     "style": "css/keyTable.jqueryui.css",
     "types": "./types/keyTable.jQueryUI.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

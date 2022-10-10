@@ -1,4 +1,17 @@
 {
-    "last-sync": "c9cb500f1b24ffb37dde5c469f11176960f69ba5",
-    "last-tag": "2.6.4"
+    "js": [
+        "js/keyTable.jqueryui.js",
+        "js/keyTable.jqueryui.min.js",
+        "js/keyTable.jqueryui.min.mjs",
+        "js/keyTable.jqueryui.mjs"
+    ],
+    "css": [
+        "css/keyTable.jqueryui.css",
+        "css/keyTable.jqueryui.min.css"
+    ],
+    "types": [
+        "types/keyTable.jQueryUI.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/KeyTable",
+    "last-tag": "2.7.0"
 }
