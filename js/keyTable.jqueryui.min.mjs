@@ -1,1 +1,4 @@
-import DataTable from"";!function(a){"function"==typeof define&&define.amd?define(["jquery","datatables.net-jqui","datatables.net-keytable"],function(e){return a(e,window,document)}):"object"==typeof exports?module.exports=function(e,t){return e=e||window,(t=t&&t.fn.dataTable?t:require("datatables.net-jqui")(e,t).$).fn.dataTable.KeyTable||require("datatables.net-keytable")(e,t),a(t,0,e.document)}:a(jQuery,window,document)}(function(e,t,a,n){return e.fn.dataTable});export default DataTable;
+/*! jQuery UI styling wrapper for KeyTable
+ * © SpryMedia Ltd - datatables.net/license
+ */
+import $ from"jquery";import DataTable from"datatables.net-ju";import DataTable from"datatables.net-keytable";export default DataTable;
