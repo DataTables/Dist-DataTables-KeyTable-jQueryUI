@@ -8,5 +8,4 @@ import KeyTable from 'datatables.net-keytable';
 
 
 
-
 export default DataTable;
