@@ -10,10 +10,9 @@
         "css/keyTable.jqueryui.min.css"
     ],
     "types": [
-        "types/keyTable.jQueryUI.d.ts",
-        "types/types.d.ts"
+        "types/keyTable.jqueryui.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/KeyTable",
     "last-tag": "2.9.0",
-    "last-sync": "5f3fa633ad9f7003cc3034a386fb1a0f96c4b834"
+    "last-sync": ""
 }
