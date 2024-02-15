@@ -5,7 +5,7 @@
     "module": "js/keyTable.jqueryui.mjs",
     "style": "css/keyTable.jqueryui.css",
     "types": "./types/keyTable.jqueryui.d.ts",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -26,8 +26,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": "2.11.0",
-        "datatables.net-jqui": ">=1.11",
+        "datatables.net-keytable": "2.12.0",
+        "datatables.net-jqui": ">=1.11.0",
         "jquery": ">=1.7"
     },
     "moduleType": [
