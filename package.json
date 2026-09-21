@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-keytable-jqui",
     "description": "KeyTable for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/keyTable.jqueryui.js",
-    "module": "js/keyTable.jqueryui.mjs",
-    "style": "css/keyTable.jqueryui.css",
+    "main": "./js/keyTable.jqueryui.js",
+    "module": "./js/keyTable.jqueryui.mjs",
+    "style": "./css/keyTable.jqueryui.css",
     "types": "./types/keyTable.jqueryui.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "KeyTable",
@@ -38,5 +37,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/KeyTable.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/keyTable.jqueryui.d.ts",
+            "import": "./js/keyTable.jqueryui.mjs",
+            "default": "./js/keyTable.jqueryui.mjs",
+            "require": "./js/keyTable.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/keyTable.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
