@@ -29,7 +29,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-keytable": "3.0.0",
-        "datatables.net/datatables.net-jqui": "^3"
+        "datatables.net/datatables.net-keytable": "3.1.0",
+        "datatables.net/datatables.net-jqui": "^3.1"
     }
 }
