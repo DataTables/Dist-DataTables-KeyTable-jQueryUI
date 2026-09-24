@@ -41,9 +41,10 @@
     "exports": {
         ".": {
             "types": "./types/keyTable.jqueryui.d.ts",
+            "style": "./css/keyTable.jqueryui.css",
             "import": "./js/keyTable.jqueryui.mjs",
-            "default": "./js/keyTable.jqueryui.mjs",
-            "require": "./js/keyTable.jqueryui.js"
+            "require": "./js/keyTable.jqueryui.js",
+            "default": "./js/keyTable.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
